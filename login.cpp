@@ -57,7 +57,7 @@ void Login::on_btLogin_clicked()
         db.setPort(3306);
         db.setDatabaseName("qt");
         db.setUserName("root");
-        db.setPassword("root");
+        db.setPassword("ok");
         bool ok = db.open();
         //ODBC查询数据
         QSqlQuery query ;
