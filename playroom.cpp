@@ -15,7 +15,7 @@ Playroom::Playroom(QWidget *parent) :QMainWindow(parent)
     db.setPort(3306);
     db.setDatabaseName("qt");
     db.setUserName("root");
-    db.setPassword("root");
+    db.setPassword("ok");
     bool ok = db.open();
     //申请按钮
     exitBt =new QPushButton(this) ;
